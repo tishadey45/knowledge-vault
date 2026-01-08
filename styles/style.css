@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+nav ul {
+  list-style: none;
+  align-items: center;
+  display: flex;
+}
+nav ul li {
+  padding-left: 20px;
+}
+.btn-primary {
+  padding-top: 20px;
+  height: 30px;
+}
+
+.btn-primary button {
+  border-radius: 4px;
+  background: rgba(70, 145, 101, 1);
+  padding: 15px 18px;
+  width: 150px;
+  color: white;
+}
