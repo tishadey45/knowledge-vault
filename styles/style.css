@@ -63,3 +63,59 @@ nav ul li {
 .text-primary{
     color: rgba(70, 145, 101, 1);
 }
+.notes-container{
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+}
+.notes-image{
+    background: rgba(249, 85, 85, 1);
+    border-radius: 100px;
+    width: 60px;
+    height: 50px; 
+}
+.notes-item-container{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+.second-brain-container{
+    display: flex;
+    text-align:center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.second-brain-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  padding-left: 40px;
+}
+.second-brain-greetings{
+     color: rgba(70,145,101,1);
+     font-size: 15px;
+     font-weight: 500;
+     font-style: normal;
+     line-height: 22px;
+}
+
+.second-brain-content li {
+    list-style: none;
+}
+
+.second-brain-image img{
+    height: 400px;
+    width: 400px;
+}
+
+
+.second-brain-section{
+    max-width: 80%;
+    margin: auto;
+}
+
