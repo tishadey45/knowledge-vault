@@ -63,3 +63,16 @@ nav ul li {
 .text-primary{
     color: rgba(70, 145, 101, 1);
 }
+
+.footer-section {
+  height: 400px;
+  background-color: rgba(0, 25, 49, 1);
+}
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-social-links{
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+}
