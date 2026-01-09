@@ -118,4 +118,35 @@ nav ul li {
     max-width: 80%;
     margin: auto;
 }
+.Early-Access-section{
+    border-radius: 12px;
+    background: rgba(247, 246, 242, 1);
+    align-items: center;
+    justify-content: flex-start;
+    padding: 80px 40px 80px 40px;
+    flex-direction: column;
+    text-align: center;
+    
+    /* gap: 30; */
+}
+
+.Early-Access-btn{
+    /* box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15); */
+    background: rgba(70, 145, 101, 1);
+    color: #fff;
+    padding: 15px 20px 15px 20px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    height: 55px;
+}
+.Early-Access-description-two{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Inter;
+    font-style: normal;
+    text-align: center;
+    height: 20px;
+}
 
