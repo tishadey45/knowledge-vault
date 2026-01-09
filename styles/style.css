@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -64,15 +68,108 @@ nav ul li {
     color: rgba(70, 145, 101, 1);
 }
 
-.footer-section {
-  height: 400px;
-  background-color: rgba(0, 25, 49, 1);
+.notes-container{
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
 }
-.footer-container{
+.notes-image{
+    background: rgba(249, 85, 85, 1);
+    border-radius: 100px;
+    width: 60px;
+    height: 50px; 
+}
+.notes-item-container{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+.second-brain-container{
+    display: flex;
+    text-align:center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.second-brain-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  padding-left: 40px;
+}
+.second-brain-greetings{
+     color: rgba(70,145,101,1);
+     font-size: 15px;
+     font-weight: 500;
+     font-style: normal;
+     line-height: 22px;
+}
+
+.second-brain-content li {
+    list-style: none;
+}
+
+.second-brain-image img{
+    height: 400px;
+    width: 400px;
+}
+
+
+.second-brain-section{
+    max-width: 80%;
+    margin: auto;
+}
+
+.footer-section {
+  margin-top: 50px;
+  height: 300px;
+  background-color: rgba(0, 25, 49, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-container {
+  padding-top: 30px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
 }
-.footer-social-links{
-  color: rgba(255, 255, 255, 1);
+.footer-social-links h4{
+   padding-bottom: 10px;
+}
+
+.footer-logo img {
+  max-width: 150px;
+}
+
+.footer-social-links {
+  color: #ffffff;
   font-family: Inter;
+  font-size: 16px;
+}
+.hr-line{
+  border: none;
+  height: 2px;
+  background-color: rgb(6, 49, 90);
+  width: 80%;
+  margin: auto;
+}
+
+.footer-content {
+  color: #fff;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+  font-family: Inter;
+}
+
+.footer-content p{
+  padding-top: 20px;
 }
